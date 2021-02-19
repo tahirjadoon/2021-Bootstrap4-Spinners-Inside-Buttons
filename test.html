@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Spinners inside Buttons</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .bs-example{
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <!-- Border spinners inside buttons -->
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading...
+    </button>	
+    <!-- Growing spinners inside buttons -->
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading...
+    </button>
+	<button class="btn btn-success disabled" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Submit...
+    </button>
+</div>
+</body>
+</html>
